@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+    font-size: 1.2rem;
+}
+.headings{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.3;
+    font-weight: bold;
+}
+header{
+    background-color: #000000;
+    height: 6em;
+    padding-left: 30px;
+}
+header img{
+    height: 55px;
+    padding-top: 32px;
+}
+.hero{
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    height: 17em;
+    text-align: center;
+}
+.h1-hero{
+     font-weight: 700;
+     font-size: 35px;
+     padding-top: 20px;
+    padding-bottom: 10px;
+}
+.hero p{
+    color: black;
+}
+.hero button{
+    margin-top: 20px;
+    padding: 13px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #f04c2f;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.first-article{
+    text-align: center;
+}
+.first-article img{
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.h2-first-article{
+    padding-top: 35px;
+}
+.orange-block{
+    background-color: #e22d0e;
+    text-align: center;
+    height: 15em;
+    margin-block: 3em;
+}
+.orange-block .headings{
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.orange-block p{
+    padding-top: 17px;
+    color: white;
+}
+.orange-block p i{
+    color: white;
+    font-style: italic;
+}
+.orange-block p span{
+    font-size: 13px;
+}
+.second-article{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.border-article{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    text-align: center;
+}
+.border-article img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.border-article p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+footer{
+    text-align: center;
+    background-color: #48bddd;
+    height: 16em;
+}
+footer .headings{
+    color: white;
+    font-size: 32px;
+    padding-block: 25px;
+}
+footer a, p{
+    color: #c8e7f0;
+    display: block;
+}
+footer div{
+    border-bottom: 1px solid;
+    padding-block: 10px;
+    margin-inline: 90px;
+    color: white;
+}
+.Pixabay{
+    padding-top: 15px;
+    color: white;
+}
