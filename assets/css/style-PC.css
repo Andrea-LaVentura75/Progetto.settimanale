@@ -24,14 +24,16 @@ header img{
 }
 .hero{
     background-image: url('./images/banner.jpg');
-    background-size: cover;
-    height: 17em;
+    background-size: 120rem;
+    height: 25em;
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: 65% 15%;
 }
 .h1-hero{
      font-weight: 700;
      font-size: 35px;
-     padding-top: 20px;
+     padding-top: 4.5em;
     padding-bottom: 10px;
 }
 .hero p{
@@ -47,29 +49,38 @@ header img{
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 .first-article{
-    text-align: center;
+    margin-left: 30em;
+    padding-block: 5em;
+}
+.first-article div{
+    display: inline-block;
+    margin-left: 3em;
 }
 .first-article img{
-    width: 13em;
-    height: 13em;
+    width: 18em;
+    height: 18em;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-bottom: 2em;
 }
 .h2-first-article{
     padding-top: 35px;
 }
+.first-article .h2-first-article p{
+    color: black;
+}
 .orange-block{
     background-color: #e22d0e;
     text-align: center;
-    height: 15em;
+    height: 20em;
     margin-block: 3em;
 }
 .orange-block .headings{
     color: white;
     font-size: 30px;
-    padding-top: 35px;
+    padding-top: 3.5em;
     padding-bottom: 20px;
 }
 .orange-block p{
@@ -84,24 +95,25 @@ header img{
     font-size: 13px;
 }
 .second-article{
-    box-sizing: border-box;
-    padding: 20px;
+    text-align: center;
 }
 .border-article{
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin-bottom: 2em;
+    width: 20em;
     text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    min-height: 400px;
+    margin-right: 4em;
+    margin-bottom: 5em;
 }
 .border-article img{
-    width: 100%;
+    max-height: 200px;
+    width: 20em;
     padding-bottom: 20px;
 }
-.border-article p{
-    padding-top: 10px;
-    padding-bottom: 40px;
-}
 footer{
-    text-align: center;
     background-color: #48bddd;
     height: 16em;
 }
@@ -109,18 +121,22 @@ footer .headings{
     color: white;
     font-size: 32px;
     padding-block: 25px;
+    text-align: center;
+    margin-right: 60px;
 }
-footer a, p{
+footer .info-footer{
     color: #c8e7f0;
     display: block;
+    margin-left: 44.5em;
 }
 footer div{
     border-bottom: 1px solid;
     padding-block: 10px;
-    margin-inline: 90px;
+    margin-inline: 35em;
     color: white;
 }
 .Pixabay{
     padding-top: 15px;
     color: white;
+    text-align: center;
 }
