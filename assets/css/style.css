@@ -110,7 +110,7 @@ footer .headings{
     font-size: 32px;
     padding-block: 25px;
 }
-footer a, p{
+footer .info-footer {
     color: #c8e7f0;
     display: block;
 }
